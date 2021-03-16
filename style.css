@@ -13,6 +13,9 @@
 body {
   font-size: 18px;
   font-family: "Bai Jamjuree", sans-serif;
+  background-image: url("images/bg-header-desktop.png");
+  background-position: top;
+  background-repeat: no-repeat;
 }
 main {
   width: 90%;
@@ -45,6 +48,7 @@ p {
 }
 .buttons {
   margin-top: 2.5rem;
+  font-weight: 600;
 }
 .btn-green {
   background-color: var(--StrongCyan);
@@ -107,7 +111,7 @@ p {
 }
 /* footer */
 footer {
-  padding-top: 5rem;
+  padding-top: 3rem;
   background-color: hsl(201, 11%, 96%);
 }
 .footer-nav {
@@ -121,9 +125,7 @@ footer {
 .footer-nav a:hover {
   color: var(--StrongCyan);
 }
-.nav {
-  width: 150px;
-}
+
 .min-logo {
   width: 50px;
 }
@@ -133,7 +135,7 @@ footer {
 .footer-content {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 footer a {
   color: var(--Grayish-Blue);
@@ -206,5 +208,10 @@ footer a {
   }
   nav {
     margin: 1rem;
+  }
+  body {
+    background-image: url("images/bg-header-mobile.png");
+    background-position: top;
+    background-repeat: no-repeat;
   }
 }
